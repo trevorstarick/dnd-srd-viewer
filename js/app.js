@@ -26,6 +26,8 @@ function filterData(data, self) {
   });
 }
 
+var urlPath = "https://raw.githubusercontent.com/trevorstarick/dnd-srd-data/master/";
+
 var app = new Vue({
   el: '#app',
   data: {
@@ -43,11 +45,12 @@ var app = new Vue({
     darwinsExists: function() {
       return Object.keys(this.darwins).length > 0;
     },
+    _index.json
     url: function() {
       if (this.type) {
-        return "/data/" + this.type + "/_index.json";
+        return urlPath + this.type + "/_index.json";
       } else {
-        return "/data/_index.json";
+        return urlPath + "_index.json";
       }
     },
     breadcrumbs: function() {
