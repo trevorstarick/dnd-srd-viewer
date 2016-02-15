@@ -1,0 +1,24 @@
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.uppercase {
+    text-transform: capitalize;
+}
+
+.centered {
+    text-align: center;
+}
+
+.ap {
+    color: black;
+}
+
+.ap:hover {
+    text-decoration: none;
+    color: black;
+}
