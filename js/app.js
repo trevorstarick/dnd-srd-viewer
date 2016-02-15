@@ -45,9 +45,9 @@ var app = new Vue({
     },
     url: function() {
       if (this.type) {
-        return "/data.json/" + this.type + "/_index.json";
+        return "/data/" + this.type + "/_index.json";
       } else {
-        return "/data.json/_index.json";
+        return "/data/_index.json";
       }
     },
     breadcrumbs: function() {
