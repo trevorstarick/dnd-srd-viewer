@@ -45,7 +45,6 @@ var app = new Vue({
     darwinsExists: function() {
       return Object.keys(this.darwins).length > 0;
     },
-    _index.json
     url: function() {
       if (this.type) {
         return urlPath + this.type + "/_index.json";
