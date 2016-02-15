@@ -1,6 +1,0 @@
-[submodule "dnd-srd-data"]
-	path = data
-	url = https://github.com/trevorstarick/dnd-srd-data
-[submodule "data"]
-	path = data
-	url = https://github.com/trevorstarick/dnd-srd-data
